@@ -24,7 +24,7 @@ section {
     display: block;
     margin: auto;
     width: 300px;
-    height: 425px;
+    height: 450px;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -32,6 +32,8 @@ section {
     border-radius: 15px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.366);
     overflow: hidden;
+
+    transition: width .3s, height .3s;
 }
 
 div#imagem {
@@ -63,5 +65,12 @@ div#formulario > h1 {
 div#formulario > p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
+    text-align: center;
+    line-height: 1.5em;
     margin: 10px 0px 15px 0px;
+}
+
+p#botoes {
+    padding: 20px;
+    padding-left: 50px;
 }
